@@ -1,0 +1,743 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* -------------------------------------------------------- GERAL ------------------------------------------------------------------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100dvh;
+    overflow-x: hidden
+}
+
+.wrap-content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100dvh;
+}
+
+main {
+    flex: 1;
+}
+
+/*Header*/
+header {
+    background-color: white;
+}
+
+    header span {
+        display: inline-block;
+        font-size: 2.5em;
+        padding-top: 25px;
+        color: black;
+        margin: 0;
+    }
+
+.header-img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: white;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
+
+    .navbar a {
+        color: black
+    }
+
+
+
+ul li a:hover {
+    background-color: #D7D3BF;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Validadores */
+.ErrorMessage {
+    color: #8B0000;
+    font-size: 8px;
+}
+
+/*Footer*/
+footer {
+    margin-top: auto;
+    background-color: #D7D3BF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px
+}
+
+    footer span {
+        font-size: 12px;
+        color: #5a5649;
+    }
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+/* ---------------------------------------------------------------------- PÁGINA LOGIN ----------------------------------------------------------------------------------- */
+
+/* Título */
+h2.titleLogin {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #A59D84; /* Cor */
+}
+
+/*Form geral*/
+.login-form {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 320px;
+    margin-inline: auto;
+    font-size: 15px;
+}
+
+    /*Formatação da table*/
+    .login-form table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .login-form tr {
+        vertical-align: middle
+    }
+
+    .login-form td {
+        padding-block: 10px;
+    }
+
+    /*Labels e inputs do Form */
+    .login-form label {
+        font-weight: bold;
+        margin-left: 5px
+    }
+
+    .login-form input[type="checkbox"] {
+        margin-left: 15px
+    }
+
+
+    .login-form input[type="text"], .login-form input[type="password"] {
+        width: 80%;
+        margin-left: 5px;
+        height: 30px
+    }
+
+    .login-form input[type="submit"],
+    .login-form input[type="button"] {
+        width: 100%;
+        padding-block: 5px;
+        margin: 5px 0;
+        border: 1px solid #A59D84;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: #A59D84;
+    }
+
+    .login-form input[type="submit"],
+    .login-form input[type="button"] {
+        display: block;
+        margin: auto;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        width: 120px;
+    }
+
+        .login-form input[type="submit"]:hover,
+        .login-form input[type="button"]:hover {
+            background-color: #D7D3BF;
+            color: black;
+        }
+
+    /*Link para Criar Conta*/
+    .login-form a {
+        margin-left: 15px;
+        color: black;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+    }
+
+        .login-form a:hover {
+            color: #8C846E;
+        }
+
+
+/* ------------------------------------------------------------------------ CRIAR CONTA ------------------------------------------------------------------------------- */
+.form-img {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.imgCriarConta {
+    width: 80%;
+    border-radius: 8px;
+}
+/* Título */
+h2.title {
+    text-align: left;
+    margin: 20px 0;
+    margin-inline: 40px;
+    font-weight: bold;
+    color: #A59D84; /* Cor */
+}
+
+/* Table */
+.table-criarconta {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 50px;
+    border-spacing: 100px;
+}
+
+    /* Primeira coluna */
+    .table-criarconta td:first-child {
+        text-align: left; /* Alinha o texto à direita */
+        font-weight: bold;
+        padding-right: 10px; /* Espaço entre texto e inputs */
+        width: 180px; /* Largura fixa para a primeira coluna */
+    }
+
+/* Input TextBox */
+input.form-control {
+    width: 100%;
+    max-width: 500px; /* Limita a largura dos inputs */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Espaço entre os campos */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Mensagens de Erro */
+span[style*="color:#CC0000"] {
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Botão */
+.buttonCriarConta {
+    background-color: #A59D84;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+
+    .buttonCriarConta:hover {
+        background-color: #D7D3BF;
+        color: black;
+    }
+
+
+/* ----------------------------------------------------------------------- PÁGINA INICIAL ------------------------------------------------------------------------------------- */
+
+/*Título*/
+.section-paginainicial h2 {
+    text-align: left;
+    margin: 20px 0;
+    margin-inline: 40px;
+    font-weight: bold;
+    color: #A59D84; /* Cor */
+}
+
+/*DataList*/
+#mainContent_ListaLocais, #mainContent_listLocaisTop {
+    width: 95%;
+    margin-left: 40px;
+}
+
+    #mainContent_ListaLocais tr {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        gap: 24px
+    }
+
+
+.card.placeholder {
+    visibility: hidden;
+}
+
+.skeleton {
+    background: #ccc;
+}
+
+
+.card a {
+    height: 150px;
+    border-radius: 5px
+}
+
+.imgTop {
+    width: 200px;
+    border-radius: 7px;
+}
+
+.topCard {
+    width: 200px
+}
+
+.topLocais .ordem {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+    .topLocais .ordem a {
+        text-decoration: none;
+        color: inherit; /* Mantém a cor do texto do elemento pai */
+    }
+
+        .topLocais .ordem a:hover {
+            text-decoration: none;
+            color: black
+        }
+
+/* Efeito hover na imagem */
+.topLocais .imgTop:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente no hover */
+}
+
+/* Estilização da classificação */
+.topLocais .classificacao {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+    text-align: center
+}
+
+.card-title a {
+    text-decoration: none;
+    color: black; /* Cor */
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.navegadores a {
+    text-decoration: none;
+    color: black; /* Cor */
+    border-radius: 5px;
+}
+
+    .navegadores a:hover {
+        background-color: #D7D3BF;
+    }
+
+
+
+/*----------------------------------------------------------------------------- PESQUISAR -------------------------------------------------------------------------*/
+
+.pesquisar {
+    margin-inline: 40px;
+}
+
+.pesquisar h2 {
+    text-align: left;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #A59D84; /* Cor */
+}
+
+
+    .pesquisar table {
+        width: 100%;
+    }
+
+    .pesquisar td {
+        padding: 10px;
+    }
+
+    .pesquisar .label{
+        width:10px
+    }
+
+    .pesquisar input{
+        width: 770px;
+    }
+
+    .pesquisar input,
+    .pesquisar select {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .pesquisar .btn-dark {
+        margin-bottom: 20px;
+        background-color: #343a40;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        transition: 0.3s;
+        width: 100px;
+    }
+
+        .pesquisar .btn-dark:hover {
+            background-color: #23272b;
+        }
+
+
+/*------------------------------------------------------------------------------------ PÁGINA LOCAL -----------------------------------------------------------------------------------*/
+
+.carousel-css {
+    max-width: 840px;
+    margin-inline: auto;
+    height: 500px;
+    overflow-y: hidden;
+    text-align:center;
+    margin-block:40px;
+}
+
+.carousel-item-image {
+    width:800px;
+    max-width: 100%;
+}
+
+
+.nomeLocal {
+    text-align: left;
+    margin: 20px 0;
+    margin-inline: 40px;
+    font-weight: bold;
+    color: #A59D84; /* Cor */
+    font-size:50px
+}
+
+.nomeLocalizacao {
+    text-align: left;
+    margin: 20px 0;
+    margin-inline: 40px;
+    font-weight: bold;
+    color: #555; /* Cor */
+    font-size: 25px
+}
+
+.descricaolocal {
+    margin-inline: 40px;
+    text-align: justify;
+    margin-block: 50px;
+}
+
+.descricaolocal h4 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.descricaotext {
+    margin-top: 20px;
+    line-height: 10px;
+
+}
+
+.maps, .previsao{
+    text-align:center
+}
+
+.maps p, .previsao p{
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+ .previsao table{
+    margin-top:20px;
+    margin-right:20px
+}
+
+
+/* Estilizar a seção de comentários */
+.comentario {
+    padding: 20px;
+}
+
+    /* Título */
+    .comentario h3 {
+        color: #555;
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+/* Estilizar cada comentário */
+.comentariotable {
+    width: 100%;
+    border-bottom: 2px solid #ccc; /* Linha separadora */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+    /* Remove a borda do último comentário para evitar uma linha extra */
+    .comentariotable:last-child {
+        border-bottom: none;
+    }
+
+    /* Estilizar texto do comentário */
+    .comentariotable td {
+        padding: 8px 0;
+        font-size: 16px;
+    }
+
+    /* Nome do utilizador */
+    .comentariotable #utilizador {
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    /* Estilizar a classificação */
+    .comentariotable i.bi-star-fill {
+        color: gold;
+        margin-left: 5px;
+    }
+
+/* Controles de navegação */
+.navegadores {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.separador {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+    width:
+}
+
+.comentar {
+    width: 100%;
+    max-width: 800px; /* Define um tamanho máximo para não ficar muito largo */
+    margin: 30px auto; /* Centraliza na página */
+    padding: 20px;
+    background-color: #f8f9fa; /* Cor de fundo leve */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+    .comentar h5 {
+        color: #555;
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .comentar table {
+        width: 100%;
+    }
+
+    .comentar .form-control {
+        width: 100%;
+        height: 100px; /* Ajusta a altura do campo de texto */
+        resize: none; /* Impede redimensionamento */
+    }
+
+    .comentar .form-select {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .comentar .btn {
+        background-color: #A59D84;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 130px;
+    }
+
+        .comentar .btn:hover {
+            background-color: #D7D3BF;
+            color: black;
+        }
+
+.buttonComentar{
+    text-align:right
+}
+
+
+/*------------------------------------------------------------------------------------ ÁREA PESSOAL -----------------------------------------------------------------------------------*/
+
+/* Título */
+
+.areaPessoal {
+    margin-inline: 40px;
+}
+
+.areaPessoal h3 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.buttonEditar{
+    text-align:center;
+}
+
+
+/*------------------------------------------------------------------------------------ ALTERAR PASSWORD -----------------------------------------------------------------------------------*/
+
+
+.alterarPassword {
+    margin-inline: 40px;
+}
+
+/* Título */
+h2.titlePassword {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #A59D84; /* Cor */
+}
+
+/*Form geral*/
+.form-alterar {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 430px;
+    height: 320px;
+    margin-inline: auto;
+    font-size: 15px;
+}
+
+.btnChangePassword {
+    background-color: #A59D84;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+
+    .btnChangePassword :hover {
+        background-color: #D7D3BF;
+        color: black;
+    }
+/*------------------------------------------------------------------------------------ EDITAR PERFIL -----------------------------------------------------------------------------------*/
+.editarPerfil {
+    margin-inline: 40px;
+}
+
+.buttonEditarPerfil {
+    background-color: #A59D84;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+    .buttonEditarPerfil :hover {
+        background-color: #D7D3BF;
+        color: black;
+    }
+
+/*------------------------------------------------------------------------------------ CRIAR LOCAL -----------------------------------------------------------------------------------*/
+
+.criarLocal {
+    margin-inline: 40px;
+}
+
+.buttonCriarLocal {
+    background-color: #A59D84;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .buttonCriarLocal:hover {
+        background-color: #D7D3BF;
+        color: black;
+    }
+
+/*------------------------------------------------------------------------------------ EDITAR LOCAL -----------------------------------------------------------------------------------*/
+#mainContent_nomeLocal{
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-inline:40px;
+}
+
+.editarLocal {
+    margin-inline: 40px;
+}
+
+.buttonEditarLocal {
+    background-color: #A59D84;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .buttonEditarLocal:hover {
+        background-color: #D7D3BF;
+        color: black;
+    }
