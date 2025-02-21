@@ -1,0 +1,67 @@
+USE master
+GO
+IF EXISTS (SELECT * FROM sys.databases WHERE name = 'Locais')
+	DROP DATABASE Locais
+GO
+CREATE DATABASE Locais
+GO
+USE Locais
+GO
+CREATE TABLE Distrito(
+	Id		INT,
+	Nome		NVARCHAR(200),
+	CONSTRAINT	pkDistrito PRIMARY KEY(Id)
+)
+GO
+CREATE TABLE Concelho(
+	Id		INT,
+	Nome		NVARCHAR(200),
+	Distrito	INT,
+	CONSTRAINT	pkConcelho PRIMARY KEY(Id),
+	CONSTRAINT	fkDistrito FOREIGN KEY(Distrito) REFERENCES Distrito(Id) 
+)
+GO
+CREATE TABLE Utilizador(
+	Id		NVARCHAR(50),
+	Nome		NVARCHAR(200),
+	Email		NVARCHAR(300),
+	DataNascimento	DateTime,
+	CONSTRAINT	pkuTILIZADOR PRIMARY KEY(Id)
+)
+GO
+CREATE TABLE Local(
+	Id		INT,
+	Nome		NVARCHAR(300),
+	Descricao	NVARCHAR(4000),
+	Morada		NVARCHAR(350),
+	Localidade	NVARCHAR(350),
+	Concelho	INT,
+	Latitude	VARCHAR(20),
+	Longitude	VARCHAR(20),
+	Utilizador	NVARCHAR(50),
+	CONSTRAINT	pkLocal PRIMARY KEY(Id),
+	CONSTRAINT	fkConcelho FOREIGN KEY(Concelho) REFERENCES Concelho(Id),
+	CONSTRAINT	fkUtilizador FOREIGN KEY(Utilizador) REFERENCES Utilizador(Id)
+)
+GO
+CREATE TABLE Foto(
+	Id			INT,
+	Legenda		NVARCHAR(300),
+	Ficheiro	NVARCHAR(300),
+	Local		INT,
+	CONSTRAINT	pkFoto PRIMARY KEY(Id),
+	CONSTRAINT	fkLocal FOREIGN KEY(Local) REFERENCES Local(Id),
+)
+GO
+CREATE TABLE Comentario(
+	Id				INT,
+	Comentario		NVARCHAR(1500),
+	Classificacao	TINYINT,
+	Data			DATETIME,
+	Local			INT,
+	Utilizador		NVARCHAR(50),
+	CONSTRAINT		pkComentario PRIMARY KEY(Id),
+	CONSTRAINT		fkLocalComentario FOREIGN KEY(Local) REFERENCES Local(Id),
+	CONSTRAINT		fkUtilizadorComentario FOREIGN KEY(Utilizador) REFERENCES Utilizador(Id)
+)
+GO

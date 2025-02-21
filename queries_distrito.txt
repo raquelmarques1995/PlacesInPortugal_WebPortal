@@ -1,0 +1,46 @@
+USE [Locais]
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (1, N'Aveiro')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (2, N'Beja')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (3, N'Braga')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (4, N'Bragança')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (5, N'Castelo Branco')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (6, N'Coimbra')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (7, N'Évora')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (8, N'Faro')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (9, N'Guarda')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (10, N'Leiria')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (11, N'Lisboa')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (12, N'Portalegre')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (13, N'Porto')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (14, N'Santarém')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (15, N'Setúbal')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (16, N'Viana do Castelo')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (17, N'Vila Real')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (18, N'Viseu')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (19, N'Angra do Heroismo')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (20, N'Horta')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (21, N'Ponta Delgada')
+GO
+INSERT [dbo].[Distrito] ([ID], [Nome]) VALUES (22, N'Funchal')
+GO

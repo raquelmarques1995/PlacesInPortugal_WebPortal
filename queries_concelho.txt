@@ -1,0 +1,618 @@
+USE [Locais]
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (1, N'Águeda', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (2, N'Albergaria-a-Velha', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (3, N'Anadia', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (4, N'Arouca', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (5, N'Aveiro', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (6, N'Castelo de Paiva', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (7, N'Espinho', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (8, N'Estarreja', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (9, N'Santa Maria da Feira', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (10, N'Ílhavo', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (11, N'Mealhada', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (12, N'Murtosa', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (13, N'Oliveira de Azemeis', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (14, N'Oliveira do Bairro', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (15, N'Ovar', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (16, N'São João da Madeira', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (17, N'Sever do Vouga', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (18, N'Vagos', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (19, N'Vale de Cambra', 1)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (20, N'Aljustrel', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (21, N'Almodovar', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (22, N'Alvito', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (23, N'Barrancos', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (24, N'Beja', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (25, N'Castro Verde', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (26, N'Cuba', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (27, N'Ferreira do Alentejo', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (28, N'Mértola', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (29, N'Moura', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (30, N'Odemira', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (31, N'Ourique', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (32, N'Serpa', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (33, N'Vidigueira', 2)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (34, N'Amares', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (35, N'Barcelos', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (36, N'Braga', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (37, N'Cabeceiras de Basto', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (38, N'Celorico de Basto', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (39, N'Esposende', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (40, N'Fafe', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (41, N'Guimarães', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (42, N'Póvoa de Lanhoso', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (43, N'Terras de Bouro', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (44, N'Vieira do Minho', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (45, N'Vila Nova de Famalicão', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (46, N'Vila Verde', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (47, N'Vizela', 3)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (48, N'Alfandega da Fé', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (49, N'Bragança', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (50, N'Carrazeda de Ansiães', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (51, N'Freixo Espada à Cinta', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (52, N'Macedo de Cavaleiros', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (53, N'Miranda do Douro', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (54, N'Mirandela', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (55, N'Mogadouro', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (56, N'Torre de Moncorvo', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (57, N'Vila Flor', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (58, N'Vimioso', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (59, N'Vinhais', 4)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (60, N'Belmonte', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (61, N'Castelo Branco', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (62, N'Covilhã', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (63, N'Fundão', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (64, N'Idanha-a-Nova', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (65, N'Oleiros', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (66, N'Penamacor', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (67, N'Proença-a-Nova', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (68, N'Sertã', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (69, N'Vila de Rei', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (70, N'Vila Velha de Ródão', 5)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (71, N'Arganil', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (72, N'Cantanhede', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (73, N'Coimbra', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (74, N'Condeixa-a-Nova', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (75, N'Figueira da Foz', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (76, N'Góis', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (77, N'Lousã', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (78, N'Mira', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (79, N'Miranda do Corvo', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (80, N'Montemor-o-Velho', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (81, N'Oliveira do Hospital', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (82, N'Pampilhosa da Serra', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (83, N'Penacova', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (84, N'Penela', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (85, N'Soure', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (86, N'Tábua', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (87, N'Vila Nova de Poiares', 6)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (88, N'Alandroal', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (89, N'Arraiolos', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (90, N'Borba', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (91, N'Estremoz', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (92, N'Évora', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (93, N'Montemor-o-Novo', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (94, N'Mora', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (95, N'Mourão', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (96, N'Portel', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (97, N'Redondo', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (98, N'Reguengos de Monsaraz', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (99, N'Vendas Novas', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (100, N'Viana do Alentejo', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (101, N'Vila Viçosa', 7)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (102, N'Albufeira', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (103, N'Alcoutim', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (104, N'Aljezur', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (105, N'Castro Marim', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (106, N'Faro', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (107, N'Lagoa', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (108, N'Lagos', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (109, N'Loulé', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (110, N'Monchique', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (111, N'Olhão', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (112, N'Portimão', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (113, N'São Brás de Alportel', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (114, N'Silves', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (115, N'Tavira', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (116, N'Vila do Bispo', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (117, N'Vila Real Sto Antonio', 8)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (118, N'Aguiar da Beira', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (119, N'Almeida', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (120, N'Celorico da Beira', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (121, N'Fig. Castelo Rodrigo', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (122, N'Fornos de Algodres', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (123, N'Gouveia', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (124, N'Guarda', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (125, N'Manteigas', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (126, N'Meda', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (127, N'Pinhel', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (128, N'Sabugal', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (129, N'Seia', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (130, N'Trancoso', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (131, N'Vila Nova de Foz Coa', 9)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (132, N'Alcobaça', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (133, N'Alvaiázere', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (134, N'Ansião', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (135, N'Batalha', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (136, N'Bombarral', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (137, N'Caldas da Rainha', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (138, N'Castanheira de Pera', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (139, N'Figueiró dos Vinhos', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (140, N'Leiria', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (141, N'Marinha Grande', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (142, N'Nazaré', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (143, N'Óbidos', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (144, N'Pedrogão Grande', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (145, N'Peniche', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (146, N'Pombal', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (147, N'Porto de Mós', 10)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (148, N'Alenquer', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (149, N'Arruda dos Vinhos', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (150, N'Azambuja', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (151, N'Cadaval', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (152, N'Cascais', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (153, N'Lisboa', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (154, N'Loures', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (155, N'Lourinhã', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (156, N'Mafra', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (157, N'Oeiras', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (158, N'Sintra', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (159, N'Sobral de Monte Agraço', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (160, N'Torres Vedras', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (161, N'Vila Franca de Xira', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (162, N'Amadora', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (163, N'Odivelas', 11)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (164, N'Alter do Chão', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (165, N'Arronches', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (166, N'Avis', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (167, N'Campo Maior', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (168, N'Castelo de Vide', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (169, N'Crato', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (170, N'Elvas', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (171, N'Fronteira', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (172, N'Gavião', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (173, N'Marvão', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (174, N'Monforte', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (175, N'Nisa', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (176, N'Ponte de Sor', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (177, N'Portalegre', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (178, N'Sousel', 12)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (179, N'Amarante', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (180, N'Baião', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (181, N'Felgueiras', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (182, N'Gondomar', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (183, N'Lousada', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (184, N'Maia', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (185, N'Marco de Canaveses', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (186, N'Matosinhos', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (187, N'Paços de Ferreira', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (188, N'Paredes', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (189, N'Penafiel', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (190, N'Porto', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (191, N'Póvoa de Varzim', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (192, N'Santo Tirso', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (193, N'Valongo', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (194, N'Vila do Conde', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (195, N'Vila Nova de Gaia', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (196, N'Trofa', 13)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (197, N'Abrantes', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (198, N'Alcanena', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (199, N'Almeirim', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (200, N'Alpiarça', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (201, N'Benavente', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (202, N'Cartaxo', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (203, N'Chamusca', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (204, N'Constancia', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (205, N'Coruche', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (206, N'Entroncamento', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (207, N'Ferreira do Zezere', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (208, N'Golegã', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (209, N'Mação', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (210, N'Rio Maior', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (211, N'Salvaterra de Magos', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (212, N'Santarém', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (213, N'Sardoal', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (214, N'Tomar', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (215, N'Torres Novas', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (216, N'Vila Nova da Barquinha', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (217, N'Ourém', 14)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (218, N'Alcácer do Sal', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (219, N'Alcochete', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (220, N'Almada', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (221, N'Barreiro', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (222, N'Grandola', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (223, N'Moita', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (224, N'Montijo', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (225, N'Palmela', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (226, N'Santiago do Cacém', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (227, N'Seixal', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (228, N'Sesimbra', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (229, N'Setúbal', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (230, N'Sines', 15)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (231, N'Arcos de Valdevez', 16)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (232, N'Caminha', 16)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (233, N'Melgaço', 16)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (234, N'Monção', 16)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (235, N'Paredes de Coura', 16)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (236, N'Ponte da Barca', 16)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (237, N'Ponte de Lima', 16)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (238, N'Valença', 16)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (239, N'Viana do Castelo', 16)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (240, N'Vila Nova de Cerveira', 16)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (241, N'Alijó', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (242, N'Boticas', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (243, N'Chaves', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (244, N'Mesão Frio', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (245, N'Mondim de Basto', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (246, N'Montalegre', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (247, N'Murça', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (248, N'Peso da Régua', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (249, N'Ribeira de Pena', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (250, N'Sabrosa', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (251, N'Sta Marta de Penaguião', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (252, N'Valpaços', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (253, N'Vila Pouca de Aguiar', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (254, N'Vila Real', 17)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (255, N'Armamar', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (256, N'Carregal do Sal', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (257, N'Castro Daire', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (258, N'Cinfães', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (259, N'Lamego', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (260, N'Mangualde', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (261, N'Moimenta da Beira', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (262, N'Mortágua', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (263, N'Nelas', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (264, N'Oliveira de Frades', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (265, N'Penalva do Castelo', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (266, N'Penedono', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (267, N'Resende', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (268, N'Santa Comba Dão', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (269, N'São João da Pesqueira', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (270, N'São Pedro do Sul', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (271, N'Sátão', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (272, N'Sernancelhe', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (273, N'Tabuaço', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (274, N'Tarouca', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (275, N'Tondela', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (276, N'Vila Nova de Paiva', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (277, N'Viseu', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (278, N'Vouzela', 18)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (279, N'Angra do Heroísmo', 19)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (280, N'Calheta', 19)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (281, N'Santa Cruz da Graciosa', 19)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (282, N'Velas', 19)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (283, N'Praia da Vitória', 19)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (284, N'Corvo', 20)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (285, N'Horta', 20)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (286, N'Lajes das Flores', 20)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (287, N'Lajes do Pico', 20)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (288, N'Madalena', 20)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (289, N'Santa Cruz das Flores', 20)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (290, N'São Roque do Pico', 20)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (291, N'Lagoa', 21)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (292, N'Nordeste', 21)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (293, N'Ponta Delgada', 21)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (294, N'Povoação', 21)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (295, N'Ribeira Grande', 21)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (296, N'Vila Franca do Campo', 21)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (297, N'Vila do Porto', 21)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (298, N'Calheta', 22)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (299, N'Câmara de Lobos', 22)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (300, N'Funchal', 22)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (301, N'Machico', 22)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (302, N'Ponta do Sol', 22)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (303, N'Porto Moniz', 22)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (304, N'Porto Santo', 22)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (305, N'Ribeira Brava', 22)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (306, N'Santa Cruz', 22)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (307, N'Santana', 22)
+GO
+INSERT [dbo].[Concelho] ([ID], [Nome], [Distrito]) VALUES (308, N'São Vicente', 22)
+GO
