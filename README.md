@@ -1,8 +1,8 @@
 
-# Historic Villages and Sites of Portugal - Web Portal
+# Places in Portugal - Web Portal
 
 ## Description
-This project is a web portal designed to provide information about villages and historical sites in Portugal. The portal allows two types of users:
+This project is a web portal designed to provide information about villages and historical places in Portugal. The portal allows two types of users:
 
 1. **Anonymous Users**: Can view information about the historical sites and register an account.
 2. **Authenticated Users**: Can publish information about historical sites, comment, and rate the sites published by other users.
